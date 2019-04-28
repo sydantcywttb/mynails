@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textMyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/text_choose_date"
+        android:textAlignment="center"
+        android:textColor="#FFF"
+        android:textSize="23sp"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="35dp"
+        android:layout_height="wrap_content">
+
+        <CalendarView
+            android:id="@+id/scheduleCalendar"
+            android:layout_marginTop="35dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_calen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></CalendarView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <Button
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/bg_btn"
+        android:text="@string/save_my_date"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

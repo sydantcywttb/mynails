@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyNails</string>
+    <string name="choose_master_btn">Выбрать мастера</string>
+    <string name="text_choose_master">Записаться к мастеру</string>
+    <string name="save_my_date">Save My Date</string>
+    <string name="text_choose_date">Katyeue viberi datu...</string>
+</resources>
